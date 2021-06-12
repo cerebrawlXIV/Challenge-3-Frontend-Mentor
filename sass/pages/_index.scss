@@ -90,8 +90,9 @@ footer{
 
 @media screen and (min-width: 700px){
     article{
+        width: 600px;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 300px 300px;
         section{
             padding: 40px;
         }
@@ -101,9 +102,10 @@ footer{
     }
 } 
 
-@media screen and (min-width: 1080px){
+@media screen and (min-width: 1450px){
     article{
-        grid-template-columns: 1fr 300px 300px;
+        width: 80%;
+        grid-template-columns: 1fr 400px 300px;
         section{
             padding: 40px;
         }
@@ -119,8 +121,3 @@ footer{
     }
 }
 
-@media screen and (min-width: 1440px){
-    article{
-        grid-template-columns: 1fr 400px 400px;
-    }
-}
